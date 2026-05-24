@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Head from 'next/head';
 import { Scale, TrendingUp, Activity, Heart, RefreshCw, Copy, Check } from 'lucide-react';
 
 // Main BMI Calculator Component
@@ -87,8 +88,8 @@ export default function BMICalculator() {
 
   return (
     <>
-      <head>
-        <meta name="google-site-verification" content="google038341e186592e69" />
+      <Head>
+        <meta name="google-site-verification" content="y3QRRg5ZV78wJuqbKBmZpSrQXlzl2xcjDndv4T2m0Wc" />
         <meta name="description" content="Free BMI Calculator - Calculate your Body Mass Index instantly with our easy-to-use tool." />
         <meta name="keywords" content="BMI calculator, body mass index, health calculator, fitness" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -96,7 +97,7 @@ export default function BMICalculator() {
         <meta property="og:description" content="Free, accurate, and easy-to-use BMI calculator for tracking your health journey." />
         <meta property="og:url" content="https://bmicalculator-com.vercel.app" />
         <title>BMI Calculator - Calculate Your Body Mass Index Instantly</title>
-      </head>
+      </Head>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
         {/* SEO-optimized Header */}
         <header className="bg-white shadow-sm sticky top-0 z-50">
